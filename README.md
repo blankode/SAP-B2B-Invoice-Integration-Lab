@@ -149,9 +149,3 @@ Route:
   "reason": "Romanian customer routing rule"
 }
 ```
-
-## Interview explanation
-
-I built a SAP B2B Invoice Integration Lab to simulate how external partner invoices are processed before reaching SAP. The flow detects the document type, parses the payload, validates mandatory fields, maps the data into a canonical invoice model, transforms it into a SAP IDoc-like XML structure, applies partner-specific routing rules, simulates transport, and generates processing reports.
-
-The value of the project is not only the parser. The value is the full integration flow: validation, mapping, routing, error handling and monitoring.
