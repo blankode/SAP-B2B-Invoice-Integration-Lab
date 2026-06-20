@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IDOC BEGIN="1">
+    <EDI_DC40 SEGMENT="1">
+        <IDOCTYP>INVOIC02</IDOCTYP>
+        <MESTYP>INVOIC</MESTYP>
+    </EDI_DC40>
+    <E1EDK01 SEGMENT="1">
+        <BELNR>IDOC-2026-001</BELNR>
+        <CURCY>EUR</CURCY>
+        <DATUM>2026-06-20</DATUM>
+    </E1EDK01>
+    <E1EDKA1 SEGMENT="1">
+        <PARVW>LF</PARVW>
+        <NAME1>IDoc Supplier GmbH</NAME1>
+    </E1EDKA1>
+    <E1EDKA1 SEGMENT="1">
+        <PARVW>AG</PARVW>
+        <NAME1>Customer SRL</NAME1>
+    </E1EDKA1>
+    <E1EDS01 SEGMENT="1">
+        <SUMID>010</SUMID>
+        <SUMME>777.77</SUMME>
+    </E1EDS01>
+</IDOC>

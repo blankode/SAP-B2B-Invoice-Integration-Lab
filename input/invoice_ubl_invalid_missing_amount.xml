@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2">
+    <ID>INV-2026-002</ID>
+    <IssueDate>2026-06-20</IssueDate>
+    <DocumentCurrencyCode>EUR</DocumentCurrencyCode>
+    <AccountingSupplierParty>
+        <Party>
+            <PartyName>
+                <Name>Supplier GmbH</Name>
+            </PartyName>
+        </Party>
+    </AccountingSupplierParty>
+    <AccountingCustomerParty>
+        <Party>
+            <PartyName>
+                <Name>Customer SRL</Name>
+            </PartyName>
+        </Party>
+    </AccountingCustomerParty>
+    <LegalMonetaryTotal>
+        <PayableAmount currencyID="EUR"></PayableAmount>
+    </LegalMonetaryTotal>
+</Invoice>

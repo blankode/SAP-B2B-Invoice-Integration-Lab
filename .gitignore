@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+output/*.json
+output/*.xml
+output/*.txt
+!output/.gitkeep
+.pytest_cache/
+.DS_Store

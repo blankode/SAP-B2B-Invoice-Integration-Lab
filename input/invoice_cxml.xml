@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cXML payloadID="12345" timestamp="2026-06-20T10:00:00+01:00">
+    <Request>
+        <InvoiceDetailRequest>
+            <InvoiceDetailRequestHeader invoiceID="CXML-2026-001" invoiceDate="2026-06-20T10:00:00+01:00">
+                <InvoicePartner>
+                    <Contact role="from">
+                        <Name xml:lang="en">Ariba Supplier GmbH</Name>
+                    </Contact>
+                </InvoicePartner>
+                <InvoicePartner>
+                    <Contact role="billTo">
+                        <Name xml:lang="en">Customer SRL</Name>
+                    </Contact>
+                </InvoicePartner>
+            </InvoiceDetailRequestHeader>
+            <InvoiceDetailSummary>
+                <GrossAmount>
+                    <Money currency="EUR">999.99</Money>
+                </GrossAmount>
+            </InvoiceDetailSummary>
+        </InvoiceDetailRequest>
+    </Request>
+</cXML>
