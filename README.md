@@ -8,6 +8,9 @@ The goal is to demonstrate production-like integration thinking: document detect
 
 This project is designed for SAP CPI / SAP PI/PO / B2B Integration Consultant interviews.
 
+<img width="1688" height="1191" alt="image" src="https://github.com/user-attachments/assets/4ea00ab0-fb3a-4f07-90de-2f834716e141" />
+
+
 It shows that you understand the core integration lifecycle:
 
 ```text
